@@ -1,0 +1,25 @@
+instances:
+  - baseURL: https://jira1.example.com
+    account:
+      plain:
+        username: admin
+        password: <password>
+
+  - baseURL: https://jira2.example.com
+    account:
+      plain:
+        username: admin
+        password: <password>
+
+atlassian:
+  account:
+    plain:
+      username: user@example.com
+      password: <password>
+
+playwright:
+  # optional, use existing running browser
+  # endpoint: "ws://127.0.0.1:9222/devtools/browser/"
+
+  # run browser ui
+  headful: false
